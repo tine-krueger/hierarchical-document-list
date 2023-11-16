@@ -76,6 +76,9 @@ export default () => {
 
         // ❓ Optional: limit the depth of your hierarachies
         maxDept: 3
+
+        // ❓ Optional: subarray of referenceTo, when it should not be possible to create new types from all referenceTo types
+        creatableTypes: ['site.page']
       })
     ])
 }
